@@ -1,0 +1,204 @@
+/* Main Section */
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Monseraty-Bold";
+}
+
+p {
+  color: #8f8f8f;
+ }
+
+
+  /* Title Bar */
+
+ #title {
+text-align: left;
+background-color: #3FA796;
+color: #fff;
+}
+
+ .title-img {
+   width: 70%;
+   transform: rotate(25deg);
+   position: relative;
+   top: 20%;
+   left: 2.3rem;
+ }
+
+ /* **************** */
+
+  /* Headings */
+
+.big-heading {
+  margin-top: 2rem;
+  size: 8rem;
+  line-height: 1.5;
+}
+
+  /* **************** */
+
+  /* Navigation Bar */
+
+   .container-fluid {
+   padding: 2% 10% 0% 15%;
+ }
+
+ .navbar-brand {
+   font-family: "Ubuntu";
+   font-size: 2.8rem;
+   font-weight: bold;
+ }
+
+ .navbar {
+   padding-bottom: 0 0 4.5rem;
+ }
+
+ .nav-item {
+   padding: 0 18px;
+ }
+
+ .nav-link {
+   font-size: 1.2rem;
+   font-family: "Monserrat-Light"
+ }
+
+  /* **************** */
+
+ /* Features Section */
+
+ .icons {
+   color: #ef8172;
+   margin-bottom: 1rem;
+   font-size: 3rem;
+ }
+
+ .icons:hover {
+  color: #ff4c68;
+ }
+
+ #features {
+  padding: 7% 15%;
+  background-color: #256D85;
+  position: relative;
+  z-index: 1;
+ }
+
+ .feature-box {
+  padding: 5%;
+ }
+
+ .feature-h3 {
+  size: 1.5rem;
+  color: white;
+ }
+
+ /* **************** */
+
+ /* Button */
+
+.button-download {
+  margin: 8% 5% 4% 0% ;
+}
+
+ /* Testemonials Section */
+
+ #testimonials {
+  background-color: #3FA796;
+  color:#fff;
+  }
+
+  .carousel-item {
+    padding: 7% 15%;
+  }
+
+  .testimonial-h2 {
+    font-family: 'Oranienbaum', serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-img {
+    width: 15%;
+    border-radius: 35%;
+    margin: 20px;
+    }
+
+
+
+  /* **************** */
+
+ /* Press Section */
+
+#press {
+  background-color: #3FA796;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 2.4rem 2.4rem 6rem;
+  font-size: 3.7rem;
+}
+
+  /* **************** */
+
+   /* Pricing Section */
+
+#pricing {
+  padding: 3rem;
+  background-color: #256D85;
+}
+
+.pricing-header {
+  color: #fff;
+  font-family: "Monseraty-Bold";
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+   /* **************** */
+
+ /* Footer Section */
+
+ #footer {
+  padding: 1%;
+  background-color: #3FA796;
+ }
+
+ .footer-icon {
+  padding: 2% 1%;
+  font-size: 2rem;
+  color: rgb(4, 51, 105);
+ }
+
+ .footer-last-p {
+  margin-top: 2%;
+  color: blue;
+ }
+   /* **************** */
+
+      /* ---------------- Media Query Breakpoints----------------- */
+
+@media (max-width: 1028px) {
+
+  .title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    font-size: 10%;
+  }
+
+
+
+
+}
+

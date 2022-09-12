@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- CSS Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+
+        <a class="navbar-brand me-14" href="#">Navbar</a>
+
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto ">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Blog</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+        </div>
+        <form class="d-flex" role="search">
+          <input class="form-control  me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+
+        <div class="col-lg-6">
+
+          <h1> Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-outline-light btn-lg" style=" margin-right: 0.9rem; margin-top: 48px;"><i
+              class=" bi bi-apple"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg" style="margin-top: 48px;"><i class=" bi bi-google-play"></i>
+            Download</button>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-img" src="images/iphone.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  </div>
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icons bi bi-airplane-fill bi-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+  
+      <div class="feature-box col-lg-4">
+        <i class="icons bi bi-brightness-high-fill"></i>
+      <h3>Elite Clientele</h3>
+      <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+  
+      <div class="feature-box col-lg-4">
+        <i class="icons bi bi-house-heart-fill"></i>
+      <h3>Guaranteed to work.</h3>
+      <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icons bi bi-tv-fill"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+  
+      <div class="feature-box col-lg-4">
+        <i class="icons bi bi-activity"></i>
+      <h3>Elite Clientele</h3>
+      <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+  
+      <div class="feature-box col-lg-4">
+        <i class="icons bi bi-award-fill"></i>
+      <h3>Guaranteed to work.</h3>
+      <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false" data-interval="2000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-img" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2>My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2>I no longer have to sniff other dogs for love. ivi goldo mentto sento tynviyu.</h2>
+          <img class="testimonial-img" src="images/bali-man.jpg" alt="dog-profile">
+          <em> Nazzaro, St.Alinoya </em>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        
+      </button>
+    </div>
+
+
+    
+   
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+
+    <h3>Chihuahua</h3>
+    <h2>Free</h2>
+    <p>5 Matches Per Day</p>
+    <p>10 Messages Per Day</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+
+    <h3>Labrador</h3>
+    <h2>$49 / mo</h2>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+
+    <h3>Mastiff</h3>
+    <h2>$99 / mo</h2>
+    <p>Pirority Listing</p>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright TinDog</p>
+
+  </footer>
+
+
+</body>
+
+</html>
+
+
+___________________________________________________________________________________________
+
+css/styles.css
+
+
+/* Main Section */
+body {
+  font-family: Montserrat;
+}
+
+#title {
+background-color: #3FA796;
+color: #fff;
+}
+
+
+h1 {
+  margin-top: 2rem;
+  font: Montserrat-Black; 
+  size: 7rem;
+  line-height: 1.5;
+ }
+
+p {
+  color: #8f8f8f;
+ }
+
+ .title-img {
+  width: 60%;
+  transform: rotate(25deg);
+   margin-top: 2rem;
+ }
+
+ /* **************** */
+
+ /* Features Section */
+
+ h3 {
+  font-family: "Monserat-bold";
+   size: 1.5rem;
+   color: white;
+ }
+
+ .icons {
+   color: #ef8172;
+   margin-bottom: 1rem;
+   font-size: 3rem;
+ }
+
+ .bi:hover {
+  color: #ff4c68;
+ }
+
+ #features {
+  padding: 7% 15%;
+  background-color: #256D85;
+ }
+
+ .feature-box {
+  text-align: center;
+  padding: 5%;
+ }
+
+ /* **************** */
+
+ .container-fluid {
+   padding: 3% 15%;
+ }
+
+ /* Navigation Bar */
+
+ .navbar-brand {
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+   margin-right: 5rem;
+ }
+
+ .navbar {
+   padding-bottom: 0 0 4.5rem;
+ }
+
+ .nav-item {
+   padding: 0 18px;
+ }
+
+ .nav-link {
+   font-size: 1.2rem;
+   font-family: "Monserrat-Light"
+ }
+
+  /* **************** */
+
+ /* Button */
+
+.downloaded-button {
+  margin: 5% 3% 5% 0 ;
+}
+
+
+ /* Testemonials Section */
+
+
+ #testimonials {
+  background-color: #3FA796;
+  text-align: center;
+  color:#fff;
+  }
+
+
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  .testimonial-img {
+    width: 15%;
+    border-radius: 35%;
+    margin: 20px;
+    }
+
+  h2 {
+    font-family: "Monseraty-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  /* **************** */
+
+ /* Press Section */
+
+#press {
+  background-color: #3FA796;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 2.4rem 2.4rem 6rem;
+  font-size: 3.7rem;
+}
+
+
+
+  /* **************** */
+
